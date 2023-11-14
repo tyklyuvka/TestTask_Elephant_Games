@@ -16,11 +16,11 @@ MonoBehaviour:
   m_TableCollectionNameGuidString: 0702787eddafade4f9f2afc4ab426e12
   m_Entries:
   - m_Id: 40516501504
-    m_Key: second_scene_button
+    m_Key: first_scene_button
     m_Metadata:
       m_Items: []
   - m_Id: 756953956352
-    m_Key: first_scene_button
+    m_Key: second_scene_button
     m_Metadata:
       m_Items: []
   m_Metadata:
