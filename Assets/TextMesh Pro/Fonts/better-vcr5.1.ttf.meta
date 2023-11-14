@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e492604c21c510649883c9a933f3118a
+guid: 85e670ed6be808149b61e8322131442a
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Crewniverse
+  - Better VCR
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
