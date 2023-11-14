@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8944570864351879026}
   - component: {fileID: 8944570864351879029}
-  - component: {fileID: -4608715968606651855}
   m_Layer: 0
   m_Name: sun__view_button
   m_TagString: Untagged
@@ -85,16 +84,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4608715968606651855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8944570864351879028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c14261ffee25d840bb4da986cab9e94, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  buttonToShow: {fileID: 0}
