@@ -202,11 +202,23 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 231076591}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2050955638}
+        m_TargetAssemblyTypeName: scene_manager, Assembly-CSharp
+        m_MethodName: on_second_scene_button_click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &231076591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,6 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2050955637}
+  - component: {fileID: 2050955638}
   m_Layer: 0
   m_Name: scene_manager
   m_TagString: Untagged
@@ -818,6 +831,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050955638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050955636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df42c0d1696c4f7419ced24efe6e1b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &236132794050892176
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -825,6 +850,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 236132793132585622, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 236132793769475958, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.25
@@ -877,6 +906,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 637962674123483613, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 637962674123483614, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1474423464830995804, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
+      propertyPath: buttonToShow
+      value: 
+      objectReference: {fileID: 231076590}
     - target: {fileID: 3417473095689365333, guid: 0f9a445c64a1ded4fb8846094fbc0252, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -978,6 +1019,10 @@ PrefabInstance:
     - target: {fileID: 1025684097440263685, guid: 4c87478b36744804ba826b50427a7389, type: 3}
       propertyPath: m_LocalPosition.y
       value: 2.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3940167750008492365, guid: 4c87478b36744804ba826b50427a7389, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5185421168023870836, guid: 4c87478b36744804ba826b50427a7389, type: 3}
       propertyPath: m_SortingOrder
