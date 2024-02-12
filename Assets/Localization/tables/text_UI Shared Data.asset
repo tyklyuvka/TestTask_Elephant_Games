@@ -15,12 +15,12 @@ MonoBehaviour:
   m_TableCollectionName: text_UI
   m_TableCollectionNameGuidString: 135072ada4b43bf45958e2426dc6536e
   m_Entries:
-  - m_Id: 11571609600
-    m_Key: second_scene_button_text
+  - m_Id: 2232958894080
+    m_Key: text_button_in_first_scene
     m_Metadata:
       m_Items: []
-  - m_Id: 2232958894080
-    m_Key: button_in_first_scene
+  - m_Id: 8938891821056
+    m_Key: text_button_in_second_scene
     m_Metadata:
       m_Items: []
   m_Metadata:

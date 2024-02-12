@@ -448,6 +448,39 @@ PrefabInstance:
       objectReference: {fileID: 1707953234}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e2627044ce9dc84096232501cfc542d, type: 3}
+--- !u!1 &2580816640572693144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2580816642119596614, guid: 5e2627044ce9dc84096232501cfc542d, type: 3}
+  m_PrefabInstance: {fileID: 2580816640572693143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2580816640572693145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580816640572693144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:135072ada4b43bf45958e2426dc6536e
+    m_TableEntryReference:
+      m_KeyId: 8666085900288
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1001 &2822453693450357646
 PrefabInstance:
   m_ObjectHideFlags: 0
