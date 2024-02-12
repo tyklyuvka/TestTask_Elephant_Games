@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: text_UI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: text_UI
+  m_TableCollectionNameGuidString: 135072ada4b43bf45958e2426dc6536e
+  m_Entries:
+  - m_Id: 11571609600
+    m_Key: second_scene_button_text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2232958894080
+    m_Key: button_in_first_scene
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 767440706885124096
+  references:
+    version: 2
+    RefIds:
+    - rid: 767440706885124096
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1707736452597
